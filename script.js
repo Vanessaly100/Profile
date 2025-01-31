@@ -1,5 +1,7 @@
+const   NewUtcTime =document.getElementById("utc-time")
+
 function updateTime() {
             const utcTime = new Date().toUTCString().replace("GMT", "UTC");
-            document.getElementById("utc-time").textContent = utcTime;
+            NewUtcTime.textContent = utcTime;
         }
         updateTime();
