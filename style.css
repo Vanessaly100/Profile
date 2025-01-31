@@ -25,7 +25,7 @@ h3{
 }
 /* Card Container */
 .card {
-    width: 30%;
+    width: 50%;
     border-radius: 20px;
     box-shadow: 0 7px 20px grey;
     position: relative;
